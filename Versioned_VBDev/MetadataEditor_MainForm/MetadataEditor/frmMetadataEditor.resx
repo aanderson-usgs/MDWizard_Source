@@ -287,12 +287,6 @@ restrictions or limitations on using the data set. </value>
   <data name="txtDSUseCon.HelpString" xml:space="preserve">
     <value>Provide details about any limitations regarding who can use the data set, if applicable. In some cases, restrictions on USE may differ from restrictions on ACCESS.For instance, a data set may only be available for download on a university's server, but available for use by anyone. (Limited access, but not use). Alternatively, a data set may be freely available but only usable by individuals with a particular type of software (Limited use, but not access).</value>
   </data>
-  <metadata name="DataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="DataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="cboDSDataStatus.HelpString" xml:space="preserve">
     <value>Describe the status of the data set. ["Complete": The data set is finalized and represents a finished product.] ["In Work" : The data set is not finalized and work on the data set is ongoing.] ["Planned" : The data set does not exist but its production is planned. The metadata record outlines the overall goals of the project at this point and will be updated as the data is created.]</value>
   </data>
@@ -305,6 +299,12 @@ will identify any errors in a record, and will provide the location in the XML f
 to populate (or provide the means to populate) all the necessary fields, some errors may require that a record be opened in external software for final editing. 
 </value>
   </data>
+  <metadata name="ToolTip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>225, 14</value>
+  </metadata>
+  <metadata name="BackgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>319, 14</value>
+  </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>34</value>
   </metadata>
