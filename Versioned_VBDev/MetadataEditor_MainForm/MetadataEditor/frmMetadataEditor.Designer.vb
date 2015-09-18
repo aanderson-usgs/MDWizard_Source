@@ -527,8 +527,6 @@ Partial Class frmMetadataEditor
         Me.Label87 = New System.Windows.Forms.Label()
         Me.MP_ErrorReport_Preview = New System.Windows.Forms.WebBrowser()
         Me.btnGenerateErrorReport = New System.Windows.Forms.Button()
-        Me.ToolTip2 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.Panel4.SuspendLayout()
         Me.GroupBox10.SuspendLayout()
         Me.GroupBox54.SuspendLayout()
@@ -6974,8 +6972,6 @@ Partial Class frmMetadataEditor
     Friend WithEvents labNoErrors As System.Windows.Forms.Label
     Friend WithEvents GroupBox50 As System.Windows.Forms.GroupBox
     Friend WithEvents txtDescGeography As System.Windows.Forms.TextBox
-    Friend WithEvents ToolTip2 As System.Windows.Forms.ToolTip
-    Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
     Friend WithEvents trvTopicMetadataKeywords As System.Windows.Forms.TreeView
     Friend WithEvents trvTopicSearchResults As System.Windows.Forms.TreeView
     Friend WithEvents txtTopicKeywordDetail As System.Windows.Forms.RichTextBox
